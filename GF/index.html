@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>แบบทดสอบก่อนเรียน</h1>
+        <div id="quiz">
+            <div class="question">
+                <h2>Question 1: เค้าหล่อมั้ย?</h2>
+                <button onclick="answer(1)">Yes</button>
+                <button onclick="answer(0)">Yes</button>
+            </div>
+            <div class="question">
+                <h2>Question 2: 9 or 10?</h2>
+                <button onclick="answer(1)">9</button>
+                <button onclick="answer(0)">10</button>
+            </div>
+            <div class="question">
+                <h2>Question 3: ถ้าวันไหนเค้าไม่น่ารักกับเธอยังจะรักกันอยู่มั้ย?</h2>
+                <button onclick="answer(1)">รัก</button>
+                <button onclick="answer(0)">ไม่</button>
+            </div>
+            <div class="question">
+                <h2>Question 4: ถ้าเรามีอะไรที่คุยกันแล้วไม่เข้าใจ จะปล่อยความสัมพันธ์นี้ไปมั้ย?</h2>
+                <button onclick="answer(0)">ปล่อยไปเลย บ๊ายบาย</button>
+                <button onclick="answer(1)">ม่าย</button>
+            </div>
+            <div class="question">
+                <h2>Question 5: เธอขอเค้าเป็นได้แฟนรึยัง?</h2>
+                <button onclick="answer(1)">ขอได้แล้ว</button>
+                <button onclick="answer(0)">ไม่ขอค่า</button>
+            </div>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <!-- Firework elements -->
+    <div class="firework"></div>
+    <div class="firework"></div>
+    <div class="firework"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
